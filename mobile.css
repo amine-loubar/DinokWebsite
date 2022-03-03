@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+    :root {
+        font-size: 7px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 4rem;
+    }
+    .nav {
+        display: none;
+    }
+    .header {
+        justify-content: space-between;
+    }
+    .audio audio {
+        width: 95vw;
+    }
+}
