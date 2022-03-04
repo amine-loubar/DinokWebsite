@@ -25,10 +25,7 @@ body {
   align-items: center;
   column-gap: 3.2rem;
 }
-.fa-bars {
-  display: none;
-}
-.sliding-menu {
+.menu {
   display: none;
 }
 .quran {
@@ -106,22 +103,3 @@ select:hover {
   -o-border-radius: 50%;
   position: relative;
 }
-/* #cd::after {
-  position: absolute;
-  content: "";
-  width: 8rem;
-  height: 8rem;
-  background: #fff;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-} */
