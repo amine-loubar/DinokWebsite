@@ -28,6 +28,9 @@ body {
 .fa-bars {
   display: none;
 }
+.sliding-menu {
+  display: none;
+}
 .quran {
   padding: 1rem 0.5rem;
   color: #7209b7;
@@ -56,7 +59,7 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 3rem;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 .choices select {
   width: 30rem;
@@ -95,7 +98,7 @@ select:hover {
 #cd {
   width: 35rem;
   height: 35rem;
-  margin: 3rem auto;
+  margin: 2rem auto;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

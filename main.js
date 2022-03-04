@@ -128,4 +128,13 @@ fetch("https://api.quran.sutanlab.id/surah")
     }
   });
 
-// add the hadith section with fetch
+let closeBtn = document.querySelector(".close");
+let menuBtn = document.querySelector(".fa-bars");
+let menu = document.querySelector(".sliding-menu");
+function open() {
+  menu.style.transform = "translate(0)"
+}
+
+// function close() {
+//   gsap.FromTo(".sliding-menu", { x: 0 }, { x: -500, duration: 1.5 });
+// }
