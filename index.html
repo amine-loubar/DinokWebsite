@@ -8,12 +8,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="css/style.css">
   <title>Quran Website</title>
-  <script src="main.js" defer></script>
+  <script src="JavaScript/main.js" defer></script>
 </head>
 
 <body>
@@ -22,15 +25,14 @@
     <nav class="nav">
       <h3 class="quran">القرآن الكريم</h3>
       <h3 class="hadith">أحاديث شريفة</h3>
-      <h3 class="hadith">حصن المسلم</h3>
+      <h3 class="hisn-muslim">حصن المسلم</h3>
     </nav>
   </header>
-    <ul class="menu">
-      <li><img src="images/Quran.png" alt="Quran"><a href="#">القرآن الكريم</a></li>
-      <li><img src="images/hadith.png" alt="Hadith><a href="#">أحاديث شريفة</a></li>
-      <li><img src="images/hisn-moslim.png" alt="hisn-moslim><a href="#">حصن المسلم</a></li>
-    </ul>
-  </div>
+  <ul class="menu">
+    <li class="menu-list"><img src="images/Quran.png" alt="Quran"><a class="active" href="#">القرآن الكريم</a></li>
+    <li class="menu-list"><img src="images/hadith.png" alt="Hadith"><a href="hadith.html">أحاديث شريفة</a></li>
+    <li class="menu-list"><img src="images/hisn-moslim.png" alt="hisn-moslim"><a href="#">حصن المسلم</a></li>
+  </ul>
   <div class="choices" onChange="getSelectValue()">
     <select name="reader" id="reader">
       <option class="option" value="">اضغط هنا لاختيار القارئ --</option>
