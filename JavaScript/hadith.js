@@ -23,3 +23,7 @@ fetch("https://api.hadith.sutanlab.id/books/bukhari?range=1-300")
       }
     });
   });
+
+for (let k = 0; k < 100; k++) {
+  console.log(`Hello world ${k + 1}`);
+}
