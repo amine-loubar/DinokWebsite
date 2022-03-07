@@ -8,6 +8,9 @@
   margin: 0;
   box-sizing: border-box;
   font-family: var(--primaryFont);
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
 }
 body {
   direction: rtl;
@@ -32,8 +35,9 @@ body {
 .menu {
   display: none;
 }
-.quran {
+.nav .quran {
   padding: 1rem 0.5rem;
+  font-weight: 700;
   color: var(--primaryColor);
   border-bottom: 2px solid var(--primaryColor);
   transition: all 0.8s ease;
@@ -42,18 +46,17 @@ body {
   -ms-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
 }
-.quran:hover {
-  cursor: pointer;
-}
-.nav h3 {
+.nav a {
+  font-size: 2rem;
   padding: 1rem 0.5rem;
   transition: all 0.8s ease;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -ms-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
+  color: black;
 }
-.nav h3:hover {
+.nav a:hover {
   cursor: pointer;
 }
 .choices {
