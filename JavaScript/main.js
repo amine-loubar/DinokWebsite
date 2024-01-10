@@ -112,8 +112,8 @@ for (let i = 0; i < 114; i++) {
   if (i < 9) {
     sourah.innerHTML += `<option value="00${i + 1}" autoplay controls>00${i + 1}</option>`;
   } else if (i >= 9 && i < 99) {
-    sourah.innerHTML += `<option value="0${i + 1}" autoplay controls>0${i}</option>`;
+    sourah.innerHTML += `<option value="0${i + 1}" autoplay controls>0${i + 1}</option>`;
   } else {
-    sourah.innerHTML += `<option value="${i + 1}" autoplay controls>${i}</option>`;
+    sourah.innerHTML += `<option value="${i + 1}" autoplay controls>${i + 1}</option>`;
   }
 }
