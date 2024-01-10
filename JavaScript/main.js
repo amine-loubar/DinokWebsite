@@ -107,23 +107,13 @@ function getSelectValue() {
   }
 }
 
-fetch("https://api.quran.sutanlab.id/surah")
-  .then((response) => response.json())
-  .then((data) => {
-    for (let i = 0; i < 114; i++) {
-      let sourah = document.getElementById("sourah");
-      if (i < 9) {
-        sourah.innerHTML += `<option value="00${i + 1}" autoplay controls>${
-          data.data[i].name.short
-        }</option>`;
-      } else if (i >= 9 && i < 99) {
-        sourah.innerHTML += `<option value="0${i + 1}" autoplay controls>${
-          data.data[i].name.short
-        }</option>`;
-      } else {
-        sourah.innerHTML += `<option value="${i + 1}" autoplay controls>${
-          data.data[i].name.short
-        }</option>`;
-      }
-    }
-  });
+for (let i = 0; i < 114; i++) {
+  let sourah = document.getElementById("sourah");
+  if (i < 9) {
+    sourah.innerHTML += `<option value="00${i + 1}" autoplay controls>00${i + 1}</option>`;
+  } else if (i >= 9 && i < 99) {
+    sourah.innerHTML += `<option value="0${i + 1}" autoplay controls>0${i}</option>`;
+  } else {
+    sourah.innerHTML += `<option value="${i + 1}" autoplay controls>${i}</option>`;
+  }
+}
